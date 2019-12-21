@@ -1,0 +1,153 @@
+body{
+	font-family: Arial, sans-serif;
+	color: #000;
+	font-size: 18px;
+}
+header{
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+	color: #fff !important;
+	height: 80px;
+}
+header>nav>ul ul{
+	background-color: rgba(0,0,0,0.8);
+	color: #fff !important;
+}
+
+#logo{
+	margin: 0;
+}
+
+#wrapper{
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#wrapper #main-section{
+	flex: 0 1 65%;
+	margin-right: 40px;
+}
+
+#wrapper #side-section{
+	flex: 0 0 30%;
+}
+
+#main-image,#bus-main-image,#home-main-image{
+	height: 400px;
+	width: 100%;
+	background-image: url('img/main.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#bus-main-image{
+	background-image: url('img/busfaremain.jpg');
+}
+
+#home-main-image{
+	background-image: url('img/hmain.jpg');
+}
+
+#wrapper h1,h4{
+	font-size: 32px;
+	margin: 0;
+	margin-bottom: 20px;
+	letter-spacing: 0;
+}
+
+#wrapper h4{
+	font-size: 24px;
+}
+
+#wrapper p{
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+#wrapper #images{
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+#wrapper figure{
+	flex:  0 0 44%;
+	margin-bottom: 20px;
+}
+
+#wrapper figure img{
+	width: 100%;
+}
+
+#wrapper figcaption{
+	font-size: 12px;
+	margin: 0;
+	color: #888;
+}
+
+#wrapper table{
+	border: 1px solid #ececec;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#wrapper th{
+	border-bottom: 1px solid #ececec;
+	border-right: 1px solid #ececec;
+	width: 30%;
+	font-weight: bold;
+}
+
+#wrapper td{
+	border-bottom: 1px solid #ececec;
+}
+
+
+#wrapper img{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#wrapper #side-list>div{
+	padding: 16px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+#wrapper #ad>div{
+	color: #666;
+}
+
+#wrapper #label{
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+tr{
+	border: none;
+	border-bottom: 1px solid #ececec;
+}
+
+th{
+	font-weight: 500;
+}
+
+
+#fare-form>form{
+	display: flex;
+	flex-direction: column;
+}
+
+#fare-form>form>*{
+	flex: 0 0 100%;
+	border: 1px solid #ececec;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
